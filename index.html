@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors Game</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissors Game</h1>
+    </header>
+    <div class="scoreboard">
+      <div id="user-badge" class="badge">Comp</div>
+      <div id="comp-badge" class="badge">User</div>
+      <span id="user-score" >0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+      <p id="overallResult">Paper covers rock. You win!</p>
+      <div class="pickContainer">
+        <span class="pickYou">You: </span><span id="userPick"></span>
+      </div>
+      <div class="pickContainer">
+        <span class="pickComp">Computer: </span><span id="compPick"></span>
+      </div>
+    </div>
+    <div class="choises">
+      <div class="choise">
+        <img src="img/paper.png" width="120px" height="120px" id="p" alt="">
+      </div>
+      <div class="choise">
+        <img src="img/Rock.png" width="120px" height="120px" id="r" alt="">
+      </div>
+      <div class="choise">
+        <img src="img/scissor.png" width="120px" height="120px" id="s" alt="">
+      </div>
+    </div>
+    <p id="action-message">Make you move.</p>
+  <script src="app.js" charset="utf-8"></script>
+  </body>
+  <footer>Copyright © 2020 Lukas Mertens</footer>
+</html>
